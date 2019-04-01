@@ -1,0 +1,26 @@
+footer{
+    text-align: center;
+    /* snap effect */
+    scroll-snap-align: center;
+}
+
+footer > small{
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    color: grey;
+}
+
+.icons{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    /* height: 15vh;  */
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.icons > a{
+    padding: 0px 25px;
+}
